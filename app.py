@@ -88,7 +88,7 @@ def checkGd(cokiee,tokenno):
         payload = {
             # Thay đổi nội dung payload nếu cần thiết
             'queryType': 0,
-        'acctNo': '19101010479737',
+        'acctNo': '19101010479737', # số tài khoản tự thay vào tôi lười
         'page': 1,
         'tokenNo': str(tokenno),
         'lang': 'vi_VN'
