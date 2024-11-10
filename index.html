@@ -1,0 +1,217 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <link rel="stylesheet" type="text/css" href="/IBSRetail/static/v2/css/bootstrap.css">
+                                <link rel="stylesheet" type="text/css" href="/IBSRetail/static/v2/css/font-awesome.min.css">
+                                        <link rel="stylesheet" type="text/css" href="/IBSRetail/static/v2/css/maritimebank.css">
+                                                <link rel="stylesheet" type="text/css" href="/IBSRetail/static/v2/css/patch/patch.css?v=190710">
+                                                        <script src="/IBSRetail/static/v2/js/jquery-1.11.3.min.js"></script>
+
+                                                                <script src="/IBSRetail/static/v2/js/i18n/jquery.validationEngine-vi.js"></script>
+
+
+                                                        <script src="/IBSRetail/static/v2/js/jquery.validationEngine.js"></script>
+                                                        <!--[if lt IE 9]>
+        <script src="/IBSRetail/static/v2/js/html5shiv.js"></script>
+        <script src="/IBSRetail/static/v2/js/respond.min.js"></script>
+                <script src="/IBSRetail/static/v2/js/patch/ie8.login.js"></script>
+        <link rel="stylesheet" type="text/css" href="/IBSRetail/static/v2/css/ie8.css">
+        <link rel="stylesheet" type="text/css" href="/IBSRetail/static/v2/css/patch/ie8.css">
+    <![endif]-->
+                                                        <title>Ngân hàng TMCP Hàng Hải Việt Nam - Ngân hàng điện tử</title>
+</head>
+<body class="login-page" onload="sessionStorage.clear();">
+
+        <header>
+                <div class="container-fluid header-container">
+                        <div class="msb-container-header">
+                                <div id="logo">
+                                        <a href="#"><img class="cc-logo-default" src="/IBSRetail/static/v2/images/logo.png" alt="Main logo"></a>
+                                </div>
+                                <!--End #logo-->
+
+                                <div class="msb-language pull-right">
+                                        <ul class="language-list">
+
+
+                                                        <li><img src="/IBSRetail/static/v2/images/vi.jpg"><a href="#" class="language-selector" data-lang-id="vi_VN">Tiếng Việt</a></li>     
+                                                        <li><img src="/IBSRetail/static/v2/images/en.jpg"><a href="#" class="language-selector" data-lang-id="en_US">English, US</a></li>    
+
+
+                                        </ul>
+                                </div>
+                                <!--End .msb-language-->
+                                <div class="msb-hotline pull-right">
+                                        <span class="text-black">Hotline 24/7:</span> <span class="phone-number text-active"> <strong>(024) 39 44 55 66<br> 1900 6083 </strong>
+                                        </span>
+                                </div>
+                                <!--End .msb-hotline-->
+                        </div>
+                        <!--End .msb-container-header-->
+                </div>
+        </header>
+
+
+        <!-- Slider top full screen-->
+        <section class="msb-slider msb-login-page"> <!-- template -->
+
+                <div class="ms-fullscreen-template" id="slider-wrapper">
+                        <!-- masterslider -->
+                        <div class="master-slider ms-skin-default" id="main-slider">
+                                <img src="/IBSRetail/static/v2/images/slide1.jpg" alt="Cover login">
+                        </div>
+                        <!-- end of masterslider -->
+                </div>
+
+
+                <!--End .msb-note-login-->
+
+                <!-- end of template -->
+                <div class="container-form">
+                        <div class="msb-container">
+                                <div class="box-right-form pull-right login-patch">
+                                        <div class="msb-loginform">
+                                                <div class="msb-title-box">
+                                                        ĐĂNG NHẬP
+                                                </div>
+                                                <!--End .msb-title-box-->
+                                                <div class="msb-form">
+                                                        <form name="" method="post" action="Request" id='msb-login-form' autocomplete='off' method='POST' class='msb-login'>
+<input type="hidden" name="dse_sessionId" value="0LZq26MH2mNe-bzk-5A94Hf" />
+<input type="hidden" name="dse_applicationId" value="-1" />
+<input type="hidden" name="dse_pageId" value="6" />
+<input type="hidden" name="dse_operationName" value="retailUserLoginProc" />
+<input type="hidden" name="dse_errorPage" value="index.jsp" />
+<input type="hidden" name="dse_processorState" value="initial" />
+<input type="hidden" name="dse_nextEventName" value="start" />
+
+                                                                <input type="hidden" id="orderId" name="orderId" />
+                                                                <input type="hidden" id="_userNameEncode" name="_userNameEncode" />
+                                                                <input value='' type="text" class="txt-field txt-login txt-user validate[required]" id="_userName" name="_userName" placeholder="Tên đăng nhập" autocomplete="off" autocorrect="off" autocapitalize="none"> <input
+                                                                        value='' id="msbPassword" type="password" class="txt-field txt-password txt-login validate[required]" name="_passwordS" placeholder="Mật khẩu" autocomplete="off"> <input type="password"
+                                                                                style="display: none" disabled="disabled" name="_passwordS"> <input type="hidden" id="passwordToSend" name="_password"> <span class="msb-captcha-box"> <input
+                                                                                                        type="text" class="txt-field  txt-login validate[required]" name="_verifyCode" placeholder="Mã xác nhận" maxlength="4"> <span class="imgcaptcha"> <img alt="Extra-code" id="safecode"
+                                                                                                                        src="/IBSRetail/servlet/ImageServlet" width="57" height="19" hspace="2" border="0" align="absmiddle" />
+                                                                                                        </span></span>
+                                                                                                <div class="clearfix"></div>
+                                                                                                <button id="loginBtn" type="button" onclick="loginIB(this.form)" class="btn-active msb-button">
+                                                                                                        Đăng nhập
+                                                                                                </button>
+                                                                                                <div>
+
+
+
+
+
+
+
+
+
+
+                                                                                                </div>
+                                                        </form>
+
+                                                        <em class="text-sub"><a class="text-underline" onclick="changePage('retailForgetPasswordProc')" href="#">Quên mật khẩu </a></em>     
+
+                                                        <div class="mac-ios-instruction" style="display:none;">
+
+
+                                                                        <a href="./static/v2/huongdanprivatemode.html" style="color:#999;text-decoration:underline;font-size: 0.85714em;">   
+                                                                                Bạn gặp vấn đề sau khi đăng nhập?
+                                                                        </a>
+
+                                                        </div>
+                                                </div>
+                                                <!--End .msb-form-->
+
+                                                <div class="msb-bottom-form">
+                                                        <a>Bạn chưa đăng ký dịch vụ ?</a>
+                                                        <div class="clearfix"></div>
+                                                        <a onclick="changePage('retailUserRegisterProc')" href="#"><strong>Đăng ký nhanh</strong></a>
+                                                </div>
+                                                <!--End .msb-bottm-form-->
+                                        </div>
+                                        <!--End .msb-loginform-->
+                                        <div class="msb-630">
+                                                <div class="text">Tuân thủ quy định của Ngân Hàng Nhà Nước: Nhận mã xác thực giao dịch bằng phương thức xác thực Soft Token khi chuyển khoản từ 30 triệu/ngày trên Internet Banking</div>
+                                                <div class="linkDes">Hướng dẫn sử dụng Soft Token
+                                                        <a class="here" href="https://www.msb.com.vn:8080/razuna/assets/1/EDE03158E5DE4BF0BE91EA176DAD7DDA/doc/FD72537D40DE4E82A9236DF5BA23AA41/hdsd_soft_token.pdf" target="_blank">Tại đây</a>
+                                                </div>
+
+                                        </div>
+                                </div>
+                                <!--End .box-right-form-->
+                        </div>
+                </div>
+                <div class="msb-note-login text-white login-patch">
+                        <strong class="msb-title-p">*Cảnh báo</strong>
+                        <div class="clearfix"></div>
+                        <em class="">Chúng tôi không bao giờ yêu cầu khách hàng gửi thông tin cá nhân đã đăng ký với ngân hàng qua email hoặc bất kỳ <br>trang web nào. Nếu nhận được những email hoặc website yêu cầu như vậy rất có thể đó là yêu cầu giả mạo </em>
+                </div>
+        </section>
+        <!-- End .msb-slider -->
+
+        <div class="old-browser-instruction">
+
+
+                        Trình duyệt của bạn đã cũ. Bấm vào <a href="https://www.google.com/intl/vi/chrome/browser/desktop/index.html" target="_blank">đây</a> để tải trình duyệt Chrome mới nhất.
+
+                <span class="close">
+                        <i class="fa fa-close"></i>
+                </span>
+        </div>
+
+        <footer class="msb-login-footer">
+                <div class="container-fluid">
+                        <ul class="msb-footer-nav pull-left">
+                                <li><a href="#">Faq</a></li>
+                                <li><a href="#">Điều khoản </a></li>
+                                <li><a href="#">Demo</a></li>
+                                <li><a href="#">&copy; 2016 MSB</a></li>
+                        </ul>
+                </div>
+        </footer>
+        <!--End .msb-login-footer-->
+        <script src="/IBSRetail/static/v2/js/msb.login.js?v=181021"></script>
+        <script>
+
+
+
+                function changePage(uri) {
+                        //add them  quen mat khau tren web
+
+                        if (uri == 'retailForgetPasswordProc'
+                                        || uri === 'retailForgetPasswordProc') {
+                                alert("Tính năng \"Quên Mật Khẩu\" đã được MSB cung cấp cho KH  trên App Mobile Banking: \n-  Đối với KH cũ (đã từng kích hoạt Mobile App): Sử dụng tính năng Quên Mật khẩu trên APP.\n-  Đối với KH mới hoặc đổi thiết bị (chưa kích hoạt Mobile App): Quý khách Vui lòng đến Quầy giao dịch để được hỗ trợ.");
+                                return;
+                        }
+
+                        var temp = "/IBSRetail/Request?&dse_sessionId=0LZq26MH2mNe-bzk-5A94Hf&dse_applicationId=-1&dse_pageId=6&dse_operationName="+uri+"&dse_errorPage=error_page.jsp&dse_processorState=initial&dse_nextEventName=start&lang=vi_VN";
+                        window.location.href = temp;
+                        return false;
+                }
+
+                var languageSelectors = jQuery('.language-selector');
+                $(".language-selector[data-lang-id=" + 'vi_VN' + "]")
+                                .closest("li").addClass("active");
+                languageSelectors
+                                .click(function(event) {
+                                        var $this = $(this);
+                                        languageSelectors.removeClass("active");
+                                        $this.addClass("active");
+                                        var langId = $this.data("langId");
+                                        jQuery
+                                                        .ajax({
+                                                                type : "POST",
+                                                                url : "/IBSRetail/Request?&dse_sessionId=0LZq26MH2mNe-bzk-5A94Hf&dse_applicationId=-1&dse_pageId=6&dse_operationName=retailIndexProc&dse_processorState=initial&dse_nextEventName=changeLanguageState",
+                                                                data : "_languages=" + langId,
+                                                                success : function(msg) {
+                                                                        window.location = "/IBSRetail/Request?&dse_sessionId=0LZq26MH2mNe-bzk-5A94Hf&dse_applicationId=-1&dse_pageId=6&dse_operationName=retailIndexProc&dse_processorState=initial&dse_nextEventName=start";
+                                                                }
+                                                        });
+                                });
+        </script>
+</body>
+</html>

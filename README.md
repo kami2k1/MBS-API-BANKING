@@ -9,4 +9,6 @@ This guide will help you install and set up **Tesseract-OCR** on your Windows ma
 3. The default installation directory will be:
    ```bash
    C:\Program Files\Tesseract-OCR
-hi
+linux :
+sudo apt update
+sudo apt install tesseract-ocr
